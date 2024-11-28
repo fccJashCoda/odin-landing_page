@@ -7,6 +7,11 @@ html, body {
   font-family: "Roboto Condensed", Roboto, sans-serif;
 }
 
+nav ul  {
+  list-style: none;
+}
+/* HELPER CLASSES*/
+
 .container {
   width: 1024px;
   margin:0 auto;
@@ -16,16 +21,30 @@ html, body {
   background-color: #1F2937;
 }
 
+.flex {
+  display: flex;
+}
+
 /* HEADER*/
 
 header {
   color: #E5E7EB;
 }
 
+nav {
+  padding: 10px 0;
+  align-items: baseline;
+}
+
+nav ul {
+  gap: 1em;
+}
+
 .header-logo {
   font-size: 24px;
   color: #F9FAF8;
   margin: 0;
+  margin-right: auto;
 }
 
 .hero-main-text {
@@ -34,13 +53,17 @@ header {
   color: #F9FAF8;
 }
 
-nav ul  {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
   color: #E5E7EB;
+}
+
+.hero {
+  gap: 2em;
+  padding: 5em 0 8em;
+}
+.hero-copy, .hero-img {
+  flex: 1;
 }
 
 .hero-secondary-text {
@@ -60,6 +83,13 @@ a {
   color: #1F2937;
   font-weight: 900;
   text-align: center;
+  margin: 1.5em;
+}
+
+.information-cards {
+  justify-content: center;
+  padding-bottom: 5em;
+  gap: 4em;
 }
 
 .card {
@@ -78,6 +108,11 @@ a {
 
 .quote-section {
   background-color: #E5E7EB;
+  padding: 6em 0;
+}
+
+blockquote {
+  padding: 0 4em;
 }
 
 .quote-text {
@@ -98,6 +133,10 @@ a {
 .cta-box {
   background-color: #3882F6;
   color: #F9FAF8;
+  margin: 6em 0;
+  justify-content: space-around;
+  padding: 2em 0;
+  align-items: center;
 }
 
 .cta-button {
