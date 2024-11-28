@@ -1,0 +1,115 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Roboto Condensed", Roboto, sans-serif;
+}
+
+.container {
+  width: 1024px;
+  margin:0 auto;
+}
+
+.bg-dark {
+  background-color: #1F2937;
+}
+
+/* HEADER*/
+
+header {
+  color: #E5E7EB;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+nav ul  {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+}
+
+.hero-button {
+  background-color: #3882F6;
+  border: 2px solid #3882F6;
+  color: #F9FAF8;
+}
+
+/* INFORMATION SECTION */
+
+.information-title {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
+}
+
+.card {
+  width: 160px;
+  text-align: center;
+}
+
+.card img {
+  border: 4px solid #3882F6;
+  border-radius: 25px;
+  height: 160px;
+  width: 160px;
+}
+
+/* QUOTE SECTION */
+
+.quote-section {
+  background-color: #E5E7EB;
+}
+
+.quote-text {
+  font-style: italic;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* CTA SECTION */
+
+.cta-box {
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+.cta-button {
+  background-color: transparent;
+  color: #F9FAF8;
+  border: 2px solid #F9FAF8;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  color: #F9FAF8;
+  padding: 1em;
+}
